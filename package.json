@@ -28,8 +28,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-service-base --port=3001",
-    "stop": "egg-scripts stop --title=egg-server-service-base --port=3001",
+    "start": "egg-scripts start --daemon --title=egg-server-service-base --port=3002",
+    "stop": "egg-scripts stop --title=egg-server-service-base --port=3002",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
